@@ -9,6 +9,22 @@ fordfrog@fordfrog.com.
 
 This repo is mainly unmaintained. But if you found a bug and create a pull request chances are good that it will be merged.
 
+## Build From Source
+To build from source on Ubuntu, use ant
+```
+sudo apt install ant
+cd <repo_dir>
+ant
+```
+This will compile a apgdiff-\<version>.jar file in dist/ folder.
+
+### Usage
+```
+java -jar <path-to-jar-file> old-schema.sql new-schema.sql
+```
+
+
+
 ## Changelog
 
 ### Version 2.7.0
